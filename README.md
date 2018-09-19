@@ -1,2 +1,2 @@
 # plandoskonaly
-https://mjszewczyk.github.io/plandoskonaly/
+https://mjszewczyk.github.io/martyna/
