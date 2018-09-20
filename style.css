@@ -171,6 +171,7 @@ nav ul li a:hover {
     padding: 0;
     margin: 0;
     transition: transform .5s;
+    text-decoration: none;
 }
 
 .headerButton:hover {
@@ -233,6 +234,7 @@ nav ul li a:hover {
     margin: 20px auto;
     transition: .5s;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .about-us button:hover {
