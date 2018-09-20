@@ -171,7 +171,16 @@ nav ul li a:hover {
     padding: 0;
     margin: 0;
     transition: transform .5s;
+}
+
+.headerButton a {
     text-decoration: none;
+    color: #fff;
+}
+
+.learn a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .headerButton:hover {
