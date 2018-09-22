@@ -1016,7 +1016,37 @@ footer p {
         margin-left: 100%;
     }
     header {
-        height: 750px;
+        height: 550px;
+    }
+    .burger {
+        position: absolute;
+        float: right;
+        top: 5px;
+        right: 15px;
+        width: 50px;
+        height: 30px;
+        z-index: 10;
+    }
+    .burger div {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: #fed136;
+    }
+    .burger div:nth-child(1) {
+        top: 0;
+    }
+    .burger div:nth-child(2),
+    .burger div:nth-child(3) {
+        top: calc(50% - 2px);
+    }
+    .burger div:nth-child(4) {
+        bottom: 0;
+    }
+    .home-sm {
+        margin: 0;
+        padding: 0;
     }
     nav {
         text-align: center;
@@ -1032,15 +1062,17 @@ footer p {
     nav ul li {
         display: block;
         padding-top: 20px;
+        margin: 0 auto;
     }
     nav ul li a {
         width: 50%;
-        margin: auto;
+        display: block;
+        margin: 0 auto;
         text-align: center;
     }
     nav h1 {
         margin: 0;
-        padding: 10px 50px;
+        padding: 10px 30px;
     }
     nav ul li a:hover {
         font-weight: bold;
@@ -1050,6 +1082,9 @@ footer p {
         height: 250px;
         padding: 0;
         margin: 0;
+    }
+    .headerButton {
+        width: 40%;
     }
     .slogan {
         width: 100%;
@@ -1062,6 +1097,9 @@ footer p {
         font-size: 30px;
     }
     .headerButton:hover {
+        transform: scale(1);
+    }
+    .learn:hover {
         transform: scale(1);
     }
     .services {
