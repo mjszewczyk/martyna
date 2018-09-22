@@ -88,12 +88,25 @@ nav h1 {
     font-size: 26px;
     line-height: 1.5;
     font-weight: normal;
+    margin: 0;
 }
 
-nav img {
+.home-sm {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    text-align: center;
     margin-left: 100px;
-    width: 60px;
-    height: 60px;
+    margin-top: 20px;
+}
+
+.home-sm:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 nav ul {
@@ -107,6 +120,10 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+}
+
+nav ul li:first-child a {
+    width: 170px;
 }
 
 nav ul li a {
@@ -132,11 +149,11 @@ nav ul li a:hover {
 
 .slogan h3 {
     color: #fff;
-    font-style: italic;
+    /*    font-style: italic;*/
     font-family: 'Oxygen', sans-serif;
     font-size: 30px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     margin: 0;
 }
 
@@ -898,6 +915,11 @@ footer p {
     font-weight: bold;
 }
 
+button.sm a {
+    text-decoration: none;
+    color: #000;
+}
+
 .sm {
     width: 40px;
     height: 40px;
@@ -907,10 +929,15 @@ footer p {
     background-color: rgb(34, 34, 34);
     cursor: pointer;
     text-align: center;
+    text-decoration: none;
 }
 
 .sm .fa {
     font-size: 20px;
+}
+
+.sm a {
+    text-decoration: none;
 }
 
 .sm:hover {
