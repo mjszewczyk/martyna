@@ -996,7 +996,35 @@ footer p {
         display: block;
         margin: auto;
         font-size: 12px;
+        padding: 0;
         padding-left: 10px;
+        padding-top: 25px;
+    }
+    .sm {
+        width: 40px;
+        height: 40px;
+        border: 2px solid rgb(34, 34, 34);
+        border-radius: 50%;
+        color: #fff;
+        background-color: rgb(34, 34, 34);
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        text-decoration: none;
+    }
+    .sm .fa {
+        font-size: 20px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .sm .fa:hover {
+        transform: scale(1.2);
+    }
+    .buttons {
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 }
 
