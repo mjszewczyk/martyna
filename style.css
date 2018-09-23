@@ -896,7 +896,7 @@ footer p {
         font-size: 20px;
     }
     .slogan h2 {
-        font-size: 30px;
+        font-size: 26px;
     }
     .headerButton:hover {
         transform: scale(1);
@@ -928,21 +928,14 @@ footer p {
     .gallery:hover {
         transform: scale(1);
     }
-    .caption {
-        padding-bottom: 0;
-        margin-bottom: 30px;
-    }
-    .break {
-        padding-bottom: 0;
-        margin-bottom: 30px;
-    }
     .about img {
         padding-top: 30px;
     }
     .about h2 {
+        display: block;
         font-size: 30px;
         margin: 0 auto;
-        padding-top: 20px;
+        padding-bottom: 30px;
     }
     .about h3 {
         font-size: 12px;
@@ -956,25 +949,7 @@ footer p {
     }
     .about-us img {
         display: block;
-        margin: 0 auto;
-    }
-    .paragraph {
-        padding-bottom: 50px;
-    }
-    .employee img {
-        padding-top: 30px;
-    }
-    .line:before {
-        content: "";
-        margin: auto;
-        display: none;
-    }
-    .logos-btn img {
-        height: 40%;
-        width: 40%;
-        display: block;
-        margin: 20px auto;
-        padding: 0;
+        margin: 10px auto;
     }
     .contact h2 {
         font-size: 30px;
@@ -1160,21 +1135,6 @@ footer p {
     .gallery-btn {
         margin-bottom: 10px;
     }
-    .caption {
-        width: 233px;
-        height: 80px;
-        margin: 0 auto;
-        margin-bottom: 50px;
-        padding: 0;
-    }
-    .break {
-        background-color: #fff;
-        width: 233px;
-        height: 80px;
-        margin: 0 auto;
-        margin-bottom: 100px;
-        padding: 0;
-    }
     .about h2 {
         font-size: 30px;
         margin: 0 auto;
@@ -1188,55 +1148,6 @@ footer p {
     }
     .about p {
         font-size: 12px;
-    }
-    .about1 h4,
-    .about3 h4 {
-        font-size: 14px;
-        text-align: right;
-        padding: 10px 5px 0 10px;
-    }
-    .about2 p,
-    .about4 p {
-        font-size: 14px;
-        text-align: left;
-        padding: 10px 5px 0 35px;
-    }
-    .about2 h4,
-    .about4 h4 {
-        font-size: 14px;
-        text-align: left;
-        padding: 10px 5px 0 35px;
-    }
-    .about1 img,
-    .about2 img,
-    .about3 img,
-    .about4 img,
-    .about5 img {
-        display: block;
-        margin: 0 auto;
-        padding: 0;
-    }
-    .about5 img {
-        margin-bottom: 30px;
-    }
-    .about1 p,
-    .about3 p {
-        font-size: 12px;
-        padding: 5px 10px 10px 5px;
-        text-align: right;
-    }
-    .line:before {
-        content: "";
-        display: block;
-        margin: 0 auto;
-        padding: 0;
-    }
-    .logos-btn img {
-        height: 40%;
-        width: 40%;
-        display: block;
-        margin: 20px auto;
-        padding: 0;
     }
     .contact h2 {
         font-size: 30px;
