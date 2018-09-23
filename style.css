@@ -79,23 +79,12 @@ nav {
     padding: 0;
 }
 
-nav h1 {
-    position: absolute;
-    font-family: 'Wisdom-Script';
-    text-decoration: none;
-    color: #fed136;
-    padding: 10px 180px;
-    font-size: 26px;
-    line-height: 1.5;
-    font-weight: normal;
-    margin: 0;
-}
-
 .home-sm {
     width: 40px;
     height: 40px;
     border: none;
     border-radius: 50%;
+    font-size: 20px;
     color: #fff;
     background-color: #000;
     cursor: pointer;
@@ -107,6 +96,22 @@ nav h1 {
 .home-sm a {
     text-decoration: none;
     color: #fff;
+}
+
+.home-sm:hover {
+    transform: scale(1.2);
+}
+
+nav h1 {
+    position: absolute;
+    font-family: 'Wisdom-Script';
+    text-decoration: none;
+    color: #fed136;
+    padding: 10px 180px;
+    font-size: 26px;
+    line-height: 1.5;
+    font-weight: normal;
+    margin: 0;
 }
 
 nav ul {
@@ -149,7 +154,7 @@ nav ul li a:hover {
 
 .slogan h3 {
     color: #fff;
-    /*    font-style: italic;*/
+    font-style: italic;
     font-family: 'Oxygen', sans-serif;
     font-size: 30px;
     padding-top: 20px;
@@ -195,13 +200,24 @@ nav ul li a:hover {
     color: #fff;
 }
 
+.headerButton:hover a {
+    color: #000;
+}
+
+.headerButton:hover {
+    transform: scale(1.2);
+}
+
 .learn a {
     text-decoration: none;
     color: #fff;
 }
 
-.headerButton:hover {
+.learn:hover a {
     color: #000;
+}
+
+.learn:hover {
     transform: scale(1.2);
 }
 
@@ -522,13 +538,13 @@ body::-webkit-scrollbar-thumb {
     border-color: #000;
 }
 
-.portfolio {
+.project {
     background-color: rgb(247, 247, 247);
     margin: 0;
     padding: 0;
 }
 
-.portfolio h2 {
+.project h2 {
     font-size: 40px;
     font-family: "Montserrat";
     color: rgb(34, 34, 34);
@@ -539,7 +555,7 @@ body::-webkit-scrollbar-thumb {
     padding-top: 100px;
 }
 
-.portfolio h3 {
+.project h3 {
     font-size: 16px;
     font-family: "DroidSerif";
     color: rgb(119, 119, 119);
@@ -606,217 +622,6 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     padding-top: 5px;
     margin: 0;
-}
-
-.about h2 {
-    font-size: 40px;
-    font-family: "Montserrat";
-    color: rgb(34, 34, 34);
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 0;
-    margin: 80px 0 10px 0;
-}
-
-.about1 img,
-.about2 img,
-.about3 img,
-.about4 img,
-.about5 img {
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.about h3 {
-    font-size: 16px;
-    font-family: "DroidSerif";
-    color: rgb(119, 119, 119);
-    font-style: italic;
-    text-align: center;
-    padding-bottom: 30px;
-    margin: 0;
-}
-
-.about p {
-    font-size: 14px;
-    font-family: "RobotoSlab";
-    color: rgb(119, 119, 119);
-}
-
-.about1 h4,
-.about3 h4 {
-    width: 100%;
-    text-align: right;
-    margin: 0;
-    font-size: 18px;
-    font-family: "Montserrat";
-    color: rgb(34, 34, 34);
-    font-weight: bold;
-    padding-right: 20px;
-}
-
-.about1 p,
-.about3 p {
-    font-size: 14px;
-    font-family: "RobotoSlab";
-    color: rgb(119, 119, 119);
-    text-align: right;
-    display: block;
-    margin: 10px auto;
-    padding-right: 20px;
-}
-
-.about2 h4,
-.about4 h4 {
-    width: 100%;
-    text-align: left;
-    margin: 0;
-    font-size: 18px;
-    font-family: "Montserrat";
-    color: rgb(34, 34, 34);
-    font-weight: bold;
-    padding-right: 20px;
-}
-
-.about2 p,
-.about4 p {
-    font-size: 14px;
-    font-family: "RobotoSlab";
-    color: rgb(119, 119, 119);
-    text-align: left;
-    display: block;
-    margin: 10px auto;
-}
-
-.capitalize {
-    width: 100%;
-    text-align: right;
-    padding: 0;
-    margin: 0;
-    font-size: 18px;
-    font-family: "Montserrat";
-    color: rgb(34, 34, 34);
-    font-weight: bold;
-    text-transform: capitalize;
-}
-
-.space {
-    padding-top: 20px;
-}
-
-.line:before {
-    content: "";
-    background-color: rgb(241, 241, 241);
-    width: 2px;
-    height: 80px;
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.line:after {
-    content: "";
-}
-
-.team {
-    background-color: rgb(247, 247, 247);
-}
-
-.team h2 {
-    font-size: 40px;
-    font-family: "Montserrat";
-    color: rgb(34, 34, 34);
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 80px 0 0 0;
-    padding-top: 100px;
-}
-
-.team h3 {
-    font-size: 16px;
-    font-family: "DroidSerif";
-    color: rgb(119, 119, 119);
-    font-style: italic;
-    text-align: center;
-    padding-top: 10px;
-    margin: 0;
-}
-
-.paragraph {
-    font-size: 16px;
-    font-family: "RobotoSlab";
-    color: rgb(119, 119, 119);
-    text-align: center;
-    padding: 30px;
-    padding-bottom: 100px;
-}
-
-.employee h4 {
-    text-align: center;
-    font-size: 16px;
-    font-family: "Montserrat";
-    color: rgb(34, 34, 34);
-    font-weight: bold;
-    margin: 0;
-    padding-top: 20px;
-}
-
-.employee p {
-    text-align: center;
-    font-size: 16px;
-    font-family: "Montserrat";
-    color: #777;
-    font-weight: bold;
-    margin: 0;
-    padding-top: 10px;
-}
-
-.employee img {
-    display: block;
-    padding-top: 80px;
-    margin: 0 auto;
-}
-
-.icons {
-    text-align: center;
-    padding-top: 20px;
-}
-
-.icon-btn {
-    width: 40px;
-    height: 40px;
-    border: 2px solid #000;
-    border-radius: 50%;
-    color: #000;
-    background-color: rgb(247, 247, 247);
-    cursor: pointer;
-}
-
-.icon-btn:hover {
-    background-color: #000;
-    color: #fff;
-}
-
-button i.fa {
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.logos-btn {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.logos-btn img {
-    height: 60%;
-    width: 60%;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 0;
 }
 
 .contact {
@@ -933,6 +738,10 @@ footer p {
     text-decoration: none;
 }
 
+.sm .fa:hover {
+    transform: scale(1.2);
+}
+
 .buttons {
     text-align: center;
     padding-bottom: 20px;
@@ -1016,12 +825,12 @@ footer p {
         margin-left: 100%;
     }
     header {
-        height: 550px;
+        height: 600px;
     }
     .burger {
         position: absolute;
         float: right;
-        top: 5px;
+        top: 10px;
         right: 15px;
         width: 50px;
         height: 30px;
@@ -1045,8 +854,9 @@ footer p {
         bottom: 0;
     }
     .home-sm {
+        display: block;
         margin: 0;
-        padding: 0;
+        margin-top: 5px;
     }
     nav {
         text-align: center;
@@ -1056,8 +866,7 @@ footer p {
         float: none;
         font-size: 16px;
         text-align: center;
-        margin: 0;
-        padding-top: 10px;
+        padding: 0;
     }
     nav ul li {
         display: block;
@@ -1065,26 +874,19 @@ footer p {
         margin: 0 auto;
     }
     nav ul li a {
-        width: 50%;
         display: block;
         margin: 0 auto;
         text-align: center;
     }
     nav h1 {
         margin: 0;
-        padding: 10px 30px;
+        padding: 0;
     }
     nav ul li a:hover {
         font-weight: bold;
     }
-    nav img {
-        width: 250px;
-        height: 250px;
-        padding: 0;
-        margin: 0;
-    }
     .headerButton {
-        width: 40%;
+        width: 50%;
     }
     .slogan {
         width: 100%;
@@ -1115,11 +917,11 @@ footer p {
     .elements {
         padding: 20px 0 20px 0;
     }
-    .portfolio h2 {
+    .project h2 {
         font-size: 30px;
         padding-top: 50px;
     }
-    .portfolio h3 {
+    .project h3 {
         font-size: 13px;
         padding: 10px 0 30px 0;
     }
